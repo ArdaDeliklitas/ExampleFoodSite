@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Poppins:ital,wght@0,100;0,300;0,400;1,500;1,600&display=swap');
+
+
+:root {
+--main-color: #e84242;
+--black-color: black;
+--border: 0.1rem solid rgba(255, 255, 255, 0.4)
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+    -webkit-transition: 0.2s ease;
+    -moz-transition: 0.2s ease;
+    -ms-transition: 0.2s ease;
+    -o-transition: 0.2s ease;
+}
+
+/*! base html codes */
+html{
+    font-size: 62.5%;
+
+ }
+
+ .title {
+    
+ }
+
+.logo img {
+height: 7rem;
+    }
