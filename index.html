@@ -6,15 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restorant Web Site</title>
     <link rel="stylesheet" href="stil/style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
+    <!--! header section start -->
     <header class="header">
       <a href="#" class="logo">
         <img src="images/logo.png" alt="logo" />
       </a>
       <nav class="navbar">
-        <a href="#" class="">Home</a>
+        <a href="#" class="active">Home</a>
         <a href="#">About</a>
         <a href="#">Menu</a>
         <a href="#">Products</a>
@@ -24,16 +31,113 @@
       </nav>
 
       <div class="buttons">
-        <button>
-            <i class="fas fa-search"></i>
+        <button class="buton">
+          <i class="fas fa-search"></i>
         </button>
-        <button>
-            <i class="fas fa-shopping-cart"></i>
-            </button>
-            <button>
-                <i class="fas fa-bars"></i>
-            </button>    
+        <button class="buton">
+          <i class="fas fa-shopping-cart"></i>
+        </button>
+        <button class="buton">
+          <i class="fas fa-bars"></i>
+        </button>
       </div>
     </header>
+    <!--! header section end -->
+
+    <!--! home section start -->
+    <section class="home">
+      <div class="content">
+        <h3>EXPRESS HOME DELIVERY</h3>
+        <p>
+          Enjoy the ease of ordering delicious pizza for delivery or carryout
+          from a Pizza near you.
+        </p>
+        <a href="#" class="btn">Order Now</a>
+      </div>
+    </section>
+    <!--! home section end -->
+
+    <!--! menu section start -->
+    <section class="menu">
+      <h1 class="heading">Our <span>Menu</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-1.png" alt="menu1" />
+            <span class="menu-category">Pizza</span>
+            <h3>6 Mini Pizzas</h3>
+            <div class="price">$29.99 <span>39.90</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn"> add to cart</a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-2.png" alt="menu1" />
+            <span class="menu-category">Burger</span>
+            <h3>5 Mini Burgers</h3>
+            <div class="price">$19.99 <span>24.99</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn"> add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-3.png" alt="menu1" />
+            <span class="menu-category">Pizza</span>
+            <h3>2 Mixed Pizzas</h3>
+            <div class="price">$21.99 <span>29.99</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn"> add to cart</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="box-head">
+            <img src="images/menu-4.png" alt="menu1" />
+            <span class="menu-category">Burger</span>
+            <h3>3 Meatball Burgers</h3>
+            <div class="price">$5.99 <span>8.99</span></div>
+          </div>
+          <div class="box-bottom">
+            <a href="#" class="btn"> add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! menu section end -->
+
+    <!--! products section start -->
+    <section>
+      <h1 class="heading">Our <span>Products</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="box-head">
+            <span class="title">MINI BURGER</span>
+            <a href="#" class="name">Bacon Burger</a>
+          </div>
+          <div class="image">
+            <img src="images/product-1.png" alt="" />
+          </div>
+          <div class="box-bottom">
+            <div class="info">
+              <b class="price">$7.99</b>
+              <span class="amount">110gr / 300 Cal</span>
+            </div>
+            <div class="product-btn">
+              <a href="#">
+                <i class="fas fa-plus"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--! products section end -->
+
   </body>
 </html>
